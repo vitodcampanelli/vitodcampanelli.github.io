@@ -1,0 +1,29 @@
+baseURL = "https://vitodcampanelli.github.io/"
+languageCode = "en-us"
+title = "#APEX Newbie"
+theme = "beautifulhugo"
+
+[Author]
+    name = "Vito Campanelli"
+    bio = "John Doe's true identity is unknown. Maybe he is a successful blogger or writer. Nobody knows it."
+    avatar = "http://ohjangtaekwondo.com/wp-content/uploads/2016/11/vito-campanelli.png"
+
+[Params]
+    subtitle = "Experiences with Oracle APEX and life.e" # Subtitle of your site
+    description = " John Doe's Personal blog about everything" # Description of your site
+    opengraph = true
+    readmore = false # Show "Read more" button in list if true
+    leftsidebar = false # Move sidebar to the left side if true
+    authorbox = true
+    post_navigation = true
+    postSections = ["post"]
+
+[Params.widgets]
+    search = true # Enable "Search" widget
+    recent_articles = true # Enable "Recent arcticles" widget
+    categories = true # Enable "Categories" widget
+    tags = true # Enable "Tags" widget
+    tags_counter = false # Enable counter for each tag in "Tags" widget (disabled by default)
+
+[permalinks]
+  post = "/:year/:month/:title/"
